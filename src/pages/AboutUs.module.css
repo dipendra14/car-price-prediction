@@ -1,0 +1,30 @@
+/* About Container */
+.aboutContainer {
+  background-image: url('https://pikwizard.com/pw/small/fa63d8a02c733c06b8c87bfbd3bacc6b.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+/* About Content */
+.aboutContent {
+  padding: 20px;
+}
+
+/* Heading Styles */
+.aboutHeading {
+  font-size: 2.5rem;
+  /* Additional heading styles */
+}
+
+/* Text Styles */
+.aboutText {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  /* Additional text styles */
+}

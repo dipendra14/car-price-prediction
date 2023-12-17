@@ -1,0 +1,31 @@
+/* Home Container */
+.homeContainer {
+    background-image: url('https://pikwizard.com/pw/small/fa63d8a02c733c06b8c87bfbd3bacc6b.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Text Container */
+  .textContainer {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the background color opacity as needed */
+    border-radius: 8px;
+  }
+  
+  /* Title */
+  .textContainer h1 {
+    font-size: 3rem; /* Adjust as needed */
+    margin-bottom: 10px;
+  }
+  
+  /* Subtitle */
+  .textContainer p {
+    font-size: 1.5rem; /* Adjust as needed */
+  }
+  

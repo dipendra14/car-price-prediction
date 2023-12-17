@@ -1,0 +1,73 @@
+/* Prediction Container */
+.predictionContainer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Form Container */
+.formContainer {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  margin: 20px;
+}
+
+/* Form Heading */
+.formHeading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* Form Styles */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form Group */
+.formGroup {
+  margin-bottom: 15px;
+}
+
+/* Label Styles */
+label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+/* Form Input Styles */
+.formInput,
+.formSelect {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Submit Button Styles */
+.submitButton {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #61dafb;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  width: 100%;
+}
+
+.submitButton:hover {
+  background-color: #45aaf2;
+}
